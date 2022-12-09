@@ -1,0 +1,64 @@
+{
+    "items": [
+        {
+            "name": "Mountain Poster",
+            "source": "images/photos2/img14.jpg",
+            "price": 45,
+            "alt": "Mountain Poster"
+        },
+        {
+            "name": "Mountain-Town Poster",
+            "source": "images/photos2/img1.jpeg",
+            "price": 35,
+            "alt": "Mountain-Town Poster"
+        },
+        {
+            "name": "Mountain-Lake Poster",
+            "source": "images/photos2/img8.jpg",
+            "price": 35,
+            "alt": "Mountain-Lake Poster"
+        },
+        {
+            "name": "Snowy-Bridge Poster",
+            "source": "images/photos2/img11.jpg",
+            "price": 45,
+            "alt": "Snowy-Bridge Poster"
+        },
+        {
+            "name": "Cloud 9 Poster",
+            "source": "images/artwork/Cloud9.jpg",
+            "price": 35,
+            "alt": "Cloud 9 Poster"
+        },
+        {
+            "name": "Canyon Moon Poster",
+            "source": "images/artwork/CanyonMoon.png",
+            "price": 35,
+            "alt": "Canyon Moon Poster"
+        },
+        {
+            "name": "Moonlight Picnic Poster",
+            "source": "images/artwork/MoonlitPicnic.jpg",
+            "price": 35,
+            "alt": "Moonlight Picnic Poster"
+        },
+        {
+            "name": "Disco Skeletons in Space Poster",
+            "source": "images/artwork/DiscoSkeletonsinSpace.jpg",
+            "price": 35,
+            "alt": "Disco Skeletons in Space Poster"
+        },
+        {
+            "name": "Rainbow Room Poster",
+            "source": "images/artwork/RainbowRoom.jpg",
+            "price": 35,
+            "alt": "Rainbow Room Poster"
+        },
+        {
+            "name": "Welcome to Saturn Poster",
+            "source": "images/artwork/WelcometoSaturn.jpg",
+            "price": 35,
+            "alt": "Welcome to Saturn Poster"
+        }
+    ]
+}

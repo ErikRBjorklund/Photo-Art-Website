@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+#left-info {
+    height: 100%;
+    width: 25vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #181818;
+    overflow-x: hidden;
+}
+
+#wrapper1 {
+    margin: 0;
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    overflow: hidden;
+}
+
+#wrapper1 p {
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    width: 21vw;
+    color: #f0f0f0;
+    margin: auto;
+    letter-spacing: 1px;
+}
+
+#wrapper1 h1 {
+    margin: 0px 1vw;
+    margin-bottom: 32px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    display: block;
+    transition: 0.3s;
+    font-family: 'Open Sans', sans-serif;
+    width: 23vw;
+    color: white;
+    letter-spacing: 1px;
+}
+
+#learnmore {
+    display: inline-block;
+    margin-top: 32px;
+}
+
+#headshot_wrapper {
+    width: 12vw;
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 16px;
+    margin-bottom: 16px;
+}
+
+#headshot {
+    max-width: 12vw;
+    margin: auto;
+    display: block;
+}
+
+#right_line {
+    width: 1px;
+    height: 100vh;
+    background-color: #D6D6D6;
+    position: fixed;
+    margin-left: 25vw;
+    top: 64px;
+}
+
+#date-wrapper {
+    text-align: center;
+}
+
+#smalldiv {
+    display: none;
+}
+
+
+/* Small Screen makes left-info smaller until it 
+is redone different at a certain smallness */
+
+@media (min-width:1400px) {
+    #wrapper1 p {
+        font-size: 25px;
+    }
+}
+
+@media (max-width:1400px) {
+    #wrapper1 p {
+        font-size: 20px;
+    }
+}
+
+@media (max-width:1100px) {
+    #wrapper1 p {
+        font-size: 15px;
+    }
+    #learnmore {
+        font-size: 20px;
+    }
+}
+
+
+/* If small enough, removes left info and shows different
+    version (primarily for mobile) */
+
+@media (max-width:950px) {
+    #left-info {
+        display: none;
+    }
+    #smalldiv {
+        display: inline-block;
+        color: white;
+        width: 70vw;
+    }
+}

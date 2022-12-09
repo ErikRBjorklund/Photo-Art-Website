@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.shop-header,
+.shop-header2 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+/* contains shop info for a single item*/
+
+.shop-container {
+    text-align: center;
+    display: inline-block;
+    justify-items: center;
+    margin: auto;
+    /* background-color: darkgray; */
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.shop-container:hover {
+    background-color: #088F8F;
+    cursor: pointer;
+}
+
+.shop-container:active {
+    background-color: #14f0f0;
+    cursor: pointer;
+}
+
+
+/*  contains all shop containers */
+
+#shop {
+    width: calc(100% - 128px);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 64px;
+    row-gap: 16px;
+    margin-top: 32px;
+}
+
+.cart_alert {
+    position: fixed;
+    top: 78px;
+    width: 250px;
+    left: calc(50% - 125px);
+}
+
+
+/* shortens height (and thus width) if in danger of clipping off screen */
+
+@media (min-width:1300px) {
+    .shop-container img {
+        height: 400px;
+    }
+}
+
+@media (max-width:1300px) {
+    .shop-container img {
+        height: 300px;
+    }
+}
+
+@media (max-width:1000px) {
+    .shop-container img {
+        height: 150px;
+    }
+}
+
+@media (max-width:500px) {
+    .shop-container img {
+        height: 100px;
+    }
+}

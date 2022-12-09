@@ -1,0 +1,44 @@
+body {
+    background-color: #181818;
+    margin: 0px;
+}
+
+#prelim-wrapper {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    color: white;
+    width: 876px;
+    margin: auto;
+    margin-top: 32px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    /* margin: 32px 20vw; */
+    border-left: 4px solid #088F8F;
+}
+
+#prelim-wrapper *:not(#blue-line) {
+    margin: 16px 32px;
+}
+
+#prelim-wrapper p {
+    font-size: 20px;
+}
+
+#image1 {
+    margin-top: 32px;
+}
+
+@media (max-width: 1000px) {
+    #prelim-wrapper {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width:700px) {
+    #image1 {
+        width: 100%;
+        overflow-x: hidden;
+    }
+}

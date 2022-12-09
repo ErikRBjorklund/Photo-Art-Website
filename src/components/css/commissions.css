@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Class for general text boxes. "preliminary wrapper" */
+
+.prelim-wrapper {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    color: white;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    border-left: 4px solid #088F8F;
+    width: 70vw;
+}
+
+.prelim-wrapper *:not(#blue-line) {
+    margin: 16px 32px;
+}
+
+.prelim-wrapper p {
+    font-size: 20px;
+}
+
+
+/* wraps all commissions */
+
+#commission-wrapper {
+    padding-top: 8px;
+    margin: auto;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 1px;
+    background-color: #2f2f2f;
+    border-radius: 16px;
+    border: 4px solid #088F8F;
+    text-align: left;
+}
+
+#selection_input_label {
+    margin-top: 15px;
+}
+
+#form_control {
+    width: calc(100% - 64px);
+    margin-left: 32px;
+    margin-top: 15px;
+}
+
+#type_label {
+    background-color: #181818;
+    color: white;
+    border: 1px solid black;
+}
+
+#commission-wrapper h3 {
+    margin-left: 32px;
+    display: inline-block;
+    color: white;
+}
+
+
+/* commission input box */
+
+.input-box {
+    background-color: #181818;
+    margin-right: 32px;
+    margin-top: 16px;
+    float: right;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
+
+.input-box:focus {
+    outline: none;
+}
+
+#description-wrapper h3 {
+    display: block;
+}
+
+
+/* input box for big input */
+
+#description-input {
+    width: calc(100% - 84px);
+    height: 200px;
+    margin-left: 32px;
+    float: left;
+}
+
+
+/* maximum form size etc. set in case huge screen */
+
+@media (min-width:900px) {
+    #commission-wrapper {
+        width: 812px;
+    }
+    .prelim-wrapper {
+        width: 876px;
+    }
+}
+
+
+/* if small enough, begin adjusting width with view width */
+
+@media (max-width:900px) {
+    #commission-wrapper {
+        width: 95vw;
+    }
+    .prelim-wrapper {
+        width: 95vw;
+    }
+}

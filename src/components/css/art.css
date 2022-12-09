@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+body {
+    text-align: center;
+}
+
+.prelim-wrapper {
+    margin-left: 15vw;
+    text-align: left;
+}
+
+
+/* contains art such that it wraps on window edge impact */
+
+.art-container {
+    display: inline-flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 48px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.art-container img {
+    max-height: 400px;
+}
+
+#commission-button {
+    width: 250px;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+}

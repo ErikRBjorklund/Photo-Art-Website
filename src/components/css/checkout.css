@@ -1,0 +1,41 @@
+#cart {
+    background-color: #333333;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.cart_child {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin: 20px;
+    padding: 16px;
+    background-color: #088F8F;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+#cart_header {
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-left: 16px;
+}
+
+.checkout_button {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 16px;
+}
+
+.checkout_button:hover {
+    background-color: #DDDDDD;
+    transition: .5s;
+    cursor: pointer;
+}
+
+#checkout_button:hover {
+    cursor: pointer
+}
