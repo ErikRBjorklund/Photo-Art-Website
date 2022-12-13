@@ -1,8 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-body {
-    margin-left: 25vw;
-}
-
 
 /* Controls image gallery */
 
@@ -11,6 +7,7 @@ body {
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 0;
+    margin-left: 25vw;
     padding-left: 40px;
     list-style: none;
 }
@@ -40,6 +37,7 @@ screen hits certain size */
 @media (max-width:950px) {
     .image-gallery {
         padding-left: 0px;
+        margin-left: 0px;
     }
     body {
         margin-left: 0px;
